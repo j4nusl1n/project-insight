@@ -1,0 +1,31 @@
+#scroll-top {
+	position: fixed;
+	bottom: 50px;
+	right: 40px;
+	cursor: pointer;
+	display: none;
+}
+#scroll-top .fa {margin-right: 5px;}
+body{
+  font-family: sourcehansans-tc;
+}
+.navbar-nav a{
+  font-size: 1.4em;
+}
+#content{
+	margin-left:23%;
+	margin-right: 23%;
+}
+.page-header{
+	border-bottom: 1px solid #000;
+}
+.game-filter{
+	border-top:1px dashed #000;
+	margin-top:4%
+}
+.game-filter > label{
+	margin-top: 4%;
+}
+.game-content>a:hover{
+	text-decoration:none;
+}
